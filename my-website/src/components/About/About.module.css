@@ -27,6 +27,9 @@
 
 .aboutImage {
     width: 35%;
+    transform: translateX(-10px);
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .aboutItems {
@@ -34,6 +37,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+    transform: translateX(10%);
 }
 
 .aboutItem {
@@ -60,10 +64,17 @@
 .aboutItem h3 {
     font-size: 25px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.aboutItemImage {
+    margin-right: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 @media screen and (max-width: 830px) {
@@ -83,10 +94,13 @@
 
     .aboutItems {
         margin-top: 29px;
+        align-items: flex-start;
     }
 
     .aboutItem {
         padding-left: 0;
         padding-right: 0;
+        align-items: flex-start;
+        transform: translateX(-10%);
     }
 }
