@@ -65,6 +65,7 @@
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    font-family: var(--font-roboto);
 }
 
 .aboutItem p {
@@ -77,7 +78,7 @@
     margin-bottom: auto;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
     .container {
         background-color: transparent;
         padding-left: 0;

@@ -3,7 +3,7 @@
 .container {
     color: var(--color-text);
     margin-top: 120px;
-    background-color: var(--color-secondary);
+    background-color: rgb(9, 9, 70);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -13,15 +13,16 @@
 }
 
 .text h2 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
     letter-spacing: 4px;
 }
 
 .text p {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 2px;
+    margin-top: 20px;
 }
 
 .links {
@@ -41,12 +42,12 @@
 .link a {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: 1.5px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
     .container {
         flex-direction: column;
         gap: 23px;

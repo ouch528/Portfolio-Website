@@ -30,7 +30,7 @@
     {
        "title": "24X365",
         "imageSrc": "projects/24x365.png",
-        "description": "A web application to make time management easy, fulfilling and habitual by leverage AI and Google Calendar Tools.",
+        "description": "A web application to make time management easy, fulfilling and habitual by leveraging AI and Google Calendar Tools.",
         "skills": ["Full-Stack Web Application","OpenAI API", "Google OAuth2", "Google Calendar API"],
         "source": "https://github.com/ouch528/24x365"
     },
