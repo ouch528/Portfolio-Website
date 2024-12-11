@@ -8,6 +8,11 @@ export const Hero = () => {
             <h1 className={styles.title}>
                 Hi, I'm Ungchan
             </h1>
+            {/* <h2 className={styles.brand}>
+                2 Times Dean's List
+                2 Times First Runners-Up in Data Competitions
+                Proven to learn fast & deliver outstanding results
+            </h2> */}
             <p className={styles.description}> 
                 I’m an aspiring Data Analyst with a passion for Machine Learning and Artificial Intelligence.
                 Reach out if you’d like to have a chat!
