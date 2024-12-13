@@ -2,8 +2,12 @@
     {
         "role": "BT1101 Teaching Assistant",
         "organisation": "NUS School of Computing",
-        "startDate": "Aug 2024",
-        "endDate": "Dec 2024",
+        "dates": [
+            {
+                "startDate": "Aug 2024",
+                "endDate": "Dec 2024"
+            }
+        ],
         "experiences": [
             "Taught students foundational statistical and business analytics concepts",
             "Conducted Lab Sessions that helped students be more familiar with R Studio",
@@ -17,8 +21,16 @@
     {
         "role": "IT Project Assistant",
         "organisation": "ThinkSmart Pte Ltd",
-        "startDate": "May 2024",
-        "endDate": "Aug 2024",
+        "dates": [
+            {
+                "startDate": "May 2024",
+                "endDate": "Aug 2024"
+            },
+            {
+                "startDate": "Dec 2022",
+                "endDate": "May 2023"
+            }
+        ],
         "experiences": [
             "Increased operational efficiency by 30% by automating key IT processes and tasks for projects.",
             "Visualised business insights effectively by designing and deploying interactive dashboards using Power BI",

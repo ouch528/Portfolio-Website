@@ -20,7 +20,7 @@
         "description": [
             "Our team finished second place among 150 teams in a competition organised by Micron",
             "We came up with a forecast using time series analysis based on historical usage trends of the materials",
-            "Given a set of constraints to the production, our team utilised advanced optimisation algorithms to come up with one of the top-performing production plans",
+            "Given a set of constraints to the production, our team also utilised advanced optimisation algorithms to come up with one of the top-performing production plans",
             "Our solution has manaaged to return one of the highest profit after following all the constraints"
         ],
         "skills": [

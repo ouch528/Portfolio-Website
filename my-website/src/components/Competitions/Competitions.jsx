@@ -28,7 +28,7 @@ export const Competitions = () => {
                                     })}
                                 </ul>
                                 <div className={styles.links}>
-                                    <a href={competitionItem.source} target="_blank" rel="noopener noreferrer" className={styles.link}>View Report</a>
+                                    <a href={competitionItem.source} target="_blank" rel="noopener noreferrer" className={styles.link}>View Solution</a>
                                 </div>
                             </div>
                         </li>
