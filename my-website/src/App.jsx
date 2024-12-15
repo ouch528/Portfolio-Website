@@ -1,11 +1,12 @@
-import styles from './App.module.css'
-import { Navbar } from './components/Navbar/Navbar'
-import { Hero } from './components/Hero/Hero'
-import { About } from './components/About/About'
-import { Experience } from './components/Experience/Experience'
-import { Projects } from './components/Projects/Projects'
-import { Contact } from './components/Contact/Contact'
-import { Competitions } from './components/Competitions/Competitions'
+import React, { useEffect } from 'react';
+import styles from './App.module.css';
+import { Navbar } from './components/Navbar/Navbar';
+import { Hero } from './components/Hero/Hero';
+import { About } from './components/About/About';
+import { Experience } from './components/Experience/Experience';
+import { Projects } from './components/Projects/Projects';
+import { Contact } from './components/Contact/Contact';
+import { Competitions } from './components/Competitions/Competitions';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Projects />
       <Contact />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
