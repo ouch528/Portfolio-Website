@@ -76,4 +76,16 @@
         flex-direction: column;
         height: auto;
     }
+    
+    .title {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .skill {
+        font-size: 1rem;
+    }
 }
