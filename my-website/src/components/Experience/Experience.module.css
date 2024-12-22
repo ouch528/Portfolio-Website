@@ -85,6 +85,10 @@
     margin-bottom: 20px;
 }
 
+.historyItemDetails ul:not(.skills):not(.dates) li {
+    margin-bottom: 0.3rem; 
+}
+
 .skills {
     width: 100%;
     margin-top: 14px;
@@ -135,5 +139,9 @@
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .historyItemDetails ul:not(.skills):not(.dates) li {
+        margin-bottom: 0.5rem; 
     }
 }

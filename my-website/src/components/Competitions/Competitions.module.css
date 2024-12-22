@@ -69,6 +69,10 @@
     margin-bottom: 20px;
 }
 
+.competitionItemDetails ul:not(.skills) li {
+    margin-bottom: 0.3rem; 
+}
+
 .skills {
     width: 100%;
     margin-top: 14px;
@@ -133,5 +137,9 @@
     .title {
         font-size: 2rem;
         text-align: left;
+    }
+
+    .competitionItemDetails ul:not(.skills) li {
+        margin-bottom: 0.5rem; 
     }
 }
